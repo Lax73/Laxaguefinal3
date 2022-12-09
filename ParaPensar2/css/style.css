@@ -25,6 +25,8 @@ html{
 }
 
 body{
+    background: rgb(230,126,23);
+    background: linear-gradient(90deg, rgba(230,126,23,0.6225840678068102) 0%, rgba(194,144,56,0.465721322708771) 8%, rgba(255,255,255,1) 100%);
     font-family: var(--fuentesParrafo);
     font-size: 1.6rem;
     line-height: 2;
@@ -98,6 +100,10 @@ header{
 }
 .titulo{
     font-size: 1.7rem;
+}
+.titulo2 {
+    color: var(--colorBlanco);
+    font-size: 2rem;
 }
 
 .barradeNavegacion {
@@ -186,6 +192,7 @@ header{
 }
 .boton:hover{
     color: #00EBE0;
+    background-color: #e4405f;
 }
 .boton__blog {
     background-color: var(--colorNegro);
@@ -262,6 +269,7 @@ header{
 
 .redesContenedor ul li a{
     display: block;
+    border-radius: 0.3rem;
     padding: 0 10px;
     background-color: #eee;
     color: var(--colorBlanco);
@@ -334,7 +342,10 @@ header{
 }
 
 .cursos img {
-    max-width: 75%;
+    max-width: 85%;
+    border-style: groove;
+    border: var(--Instagram);
+    box-shadow: 0px 6px 5px 0px var(--colorNegro);
 }
 
 .tituloCursos{
@@ -522,3 +533,4 @@ header{
     text-align: left;
     font-family: var(--fuenteBoton);
 } */
+
